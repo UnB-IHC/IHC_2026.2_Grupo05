@@ -14,7 +14,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
 
 ## Estrutura da Documentação
 
-- **Guia de Site Acessível & WCAG:** Pilares fundamentais de acessibilidade digital e compreensão aprofundada dos 4 princípios P.O.U.R.
+- **Guia de Site Acessível & WCAG:**
 - **Checklists Especializados:** Critérios objetivos e práticos com verificação dinâmica de progresso para:
   - Regras Gerais
   - Design e Interface (UI/UX)

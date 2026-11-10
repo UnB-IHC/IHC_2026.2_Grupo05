@@ -2,17 +2,6 @@
 
 Repositório de documentação e guia prático de acessibilidade e usabilidade desenvolvido pelo **Grupo 05** na disciplina de **Interação Humano-Computador (IHC)** na Universidade de Brasília (UnB / FCTE).
 
-## Integrantes da Equipe
-
-- Davi Barbosa Alves — 241012131
-- Rafael Silva Wasconcelos — 232030364
-- Felype Gomes Ribeiro Carrijo — 241025766
-- Gustavo Rodrigues de Noronha — 241011930
-- Pedro Henrique Inácio dos Santos — 241026001
-- Victor Alexim Amaral — 242005060
-- Renan Curione de Castro — 242024834
-- Guilherme Lorenzi Ventura — 241011116
-
 ## Referenciais Teóricos e Normativos
 
 - **WCAG 2.2 (Nível AA)**
@@ -20,17 +9,69 @@ Repositório de documentação e guia prático de acessibilidade e usabilidade d
 - **10 Heurísticas de Usabilidade de Jakob Nielsen**
 - **Guia de Boas Práticas para Acessibilidade Digital (Gov.br)**
 
-## Como executar localmente
+## Integrantes da Equipe
 
-1. Instale o tema Material para o MkDocs:
-```bash
-pip install mkdocs-material
-```
-
-2. Execute o servidor local de desenvolvimento:
-```bash
-mkdocs serve
-```
-
-3. Acesse no navegador:
-`http://localhost:8000`
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Raglig">
+        <img style="border-radius: 50%;" src="https://github.com/Raglig.png" width="95px;" alt="Foto de Davi Barbosa Alves"/><br />
+        <sub><b>Davi Barbosa Alves</b></sub>
+      </a><br />
+      <sub>@Raglig</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Rafaelwasconcelos">
+        <img style="border-radius: 50%;" src="https://github.com/Rafaelwasconcelos.png" width="95px;" alt="Foto de Rafael Silva Wasconcelos"/><br />
+        <sub><b>Rafael Silva Wasconcelos</b></sub>
+      </a><br />
+      <sub>@Rafaelwasconcelos</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Flyxs">
+        <img style="border-radius: 50%;" src="https://github.com/Flyxs.png" width="95px;" alt="Foto de Felype Gomes Ribeiro Carrijo"/><br />
+        <sub><b>Felype Gomes Ribeiro Carrijo</b></sub>
+      </a><br />
+      <sub>@Flyxs</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/gustavuh7">
+        <img style="border-radius: 50%;" src="https://github.com/gustavuh7.png" width="95px;" alt="Foto de Gustavo Rodrigues de Noronha"/><br />
+        <sub><b>Gustavo Rodrigues de Noronha</b></sub>
+      </a><br />
+      <sub>@gustavuh7</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/pedrossantoss">
+        <img style="border-radius: 50%;" src="https://github.com/pedrossantoss.png" width="95px;" alt="Foto de Pedro Henrique Inácio dos Santos"/><br />
+        <sub><b>Pedro Henrique Inácio dos Santos</b></sub>
+      </a><br />
+      <sub>@pedrossantoss</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/valexim">
+        <img style="border-radius: 50%;" src="https://github.com/valexim.png" width="95px;" alt="Foto de Victor Alexim Amaral"/><br />
+        <sub><b>Victor Alexim Amaral</b></sub>
+      </a><br />
+      <sub>@valexim</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/thatsrenan">
+        <img style="border-radius: 50%;" src="https://github.com/thatsrenan.png" width="95px;" alt="Foto de Renan Curione de Castro"/><br />
+        <sub><b>Renan Curione de Castro</b></sub>
+      </a><br />
+      <sub>@thatsrenan</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GuiVentura1510">
+        <img style="border-radius: 50%;" src="https://github.com/GuiVentura1510.png" width="95px;" alt="Foto de Guilherme Lorenzi Ventura"/><br />
+        <sub><b>Guilherme Lorenzi Ventura</b></sub>
+      </a><br />
+      <sub>@GuiVentura1510</sub>
+    </td>
+  </tr>
+</table>
+</div>

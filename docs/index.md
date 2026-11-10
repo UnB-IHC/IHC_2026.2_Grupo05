@@ -33,7 +33,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
 
 <div class="team-grid">
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">DB</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/Raglig.png" width="95px;" alt="Foto de Davi Barbosa Alves"/></div>
     <figcaption>
       <strong>Davi Barbosa Alves</strong><br>
       241012131
@@ -41,7 +41,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">RW</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/Rafaelwasconcelos.png" width="95px;" alt="Foto de Rafael Silva Wasconcelos"/></div>
     <figcaption>
       <strong>Rafael Silva Wasconcelos</strong><br>
       232030364
@@ -49,7 +49,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">FC</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/Flyxs.png" width="95px;" alt="Foto de Felype Gomes Ribeiro Carrijo"/></div>
     <figcaption>
       <strong>Felype Gomes Ribeiro Carrijo</strong><br>
       241025766
@@ -57,7 +57,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">GN</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/gustavuh7.png" width="95px;" alt="Foto de Gustavo Rodrigues de Noronha"/></div>
     <figcaption>
       <strong>Gustavo Rodrigues de Noronha</strong><br>
       241011930
@@ -65,7 +65,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">PS</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/pedrossantoss.png" width="95px;" alt="Foto de Pedro Henrique Inácio dos Santos"/></div>
     <figcaption>
       <strong>Pedro Henrique Inácio dos Santos</strong><br>
       241026001
@@ -73,7 +73,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">VA</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/valexim.png" width="95px;" alt="Foto de Victor Alexim Amaral"/></div>
     <figcaption>
       <strong>Victor Alexim Amaral</strong><br>
       242005060
@@ -81,7 +81,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">RC</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/thatsrenan.png" width="95px;" alt="Foto de Renan Curione de Castro"/></div>
     <figcaption>
       <strong>Renan Curione de Castro</strong><br>
       242024834
@@ -89,7 +89,7 @@ Nosso objetivo é fornecer um conjunto de **checklists aplicados**, **guias de c
   </figure>
 
   <figure class="team-card">
-    <div class="team-placeholder" aria-hidden="true">GV</div>
+    <div class="team-placeholder" aria-hidden="true"><img style="border-radius: 50%;" src="https://github.com/GuiVentura1510.png" width="95px;" alt="Foto de Guilherme Lorenzi Ventura"/></div>
     <figcaption>
       <strong>Guilherme Lorenzi Ventura</strong><br>
       241011116

@@ -1,0 +1,9 @@
+services:
+  docs:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Alterações nos arquivos do site são refletidas sem rebuild
+      - ./mkdocs.yml:/app/mkdocs.yml:ro
+      - ./docs:/app/docs:ro

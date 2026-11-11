@@ -57,9 +57,10 @@ extra_javascript:
   - javascripts/checklist-progress.js
 
 nav:
-  - Início: 
+  - Início:
     - Introdução: index.md
     - Para que serve o guia: inicio/paraQueServe.md
+  - Fundamentos de IHC e UX: inicio/fundamentos.md
   - Guia de Site Acessível: guia/site_acessivel.md
   - WCAG: wcag.md
   - Checklist: 

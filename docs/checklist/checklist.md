@@ -40,7 +40,7 @@ O objetivo é avaliar a qualidade da interação humano-computador (IHC) de um w
 | 1.3 | **Equipe** | As áreas envolvidas no projeto têm responsabilidades definidas para garantir uma cultura de acessibilidade. | — |
 | 1.4 | **Planejamento** | O cronograma, os recursos e as ferramentas necessárias para uma entrega acessível foram previstos. | — |
 | 1.5 | **Testes** | Foram previstos testes com pessoas com deficiência e validações manuais e automáticas. | — |
-| 1.6 | **Conformidade** | A meta de conformidade (ex.: WCAG 2.1 ou 2.2 nível AA) foi definida, documentada e compartilhada com toda a equipe. | — |
+| 1.6 | **Conformidade** | A meta de conformidade (ex.: WCAG 2.2 nível AA) foi definida, documentada e compartilhada com toda a equipe. | — |
 
 ---
 

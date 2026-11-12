@@ -59,22 +59,13 @@ extra_javascript:
 nav:
   - Início:
     - Introdução: index.md
-    - Para que serve o guia: inicio/paraQueServe.md
   - Fundamentos de IHC e UX: inicio/fundamentos.md
   - Guia de Site Acessível: guia/site_acessivel.md
-  - WCAG: wcag.md
-  - Checklist: 
-    - Regras Gerais: checklist/checklist.md
-    - Design: design/design.md
-    - Desenvolvimento Web: devWeb/desenvolvimento.md
-    - Produção de Conteúdo: geracaoConteudo/conteudo.md
-    - Gestão e Governança: checklist/gestao.md
-  - Avaliação do Meu Sus Digital:
-      - Relatório de Inspeção: avaliacao/introducao.md
-      - Persona de Referência: avaliacao/persona.md
+  - Checklist: checklist/checklist.md
+  - Avaliação do Meu Sus Digital: avaliacao/introducao.md
   - Checklist Aplicada: avaliacao/checklistmeusus.md
   - Metodologias & Apoio:
       - Ferramentas de Apoio: tools/ferramentas.md
       - Heurísticas de Nielsen: metodo/heuristicas.md
+      - WCAG: wcag.md
       - Técnicas de IHC: metodo/tecnicasIHC.md
-      - Gestão do Projeto: gestaoProjeto/gestaoProjeto.md

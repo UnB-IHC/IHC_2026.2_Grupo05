@@ -10,7 +10,7 @@
 
 Esta etapa da disciplina de Interação Humano-Computador (IHC) tem como objetivo avaliar a acessibilidade e a usabilidade do portal governamental **Meu SUS Digital** (`meususdigital.saude.gov.br`). A acessibilidade no ambiente digital é fundamental para assegurar que todas as pessoas — especialmente indivíduos com deficiência visual, motora, auditiva ou cognitiva, além de idosos e usuários em condições de conectividade ou dispositivos limitados — consigam usufruir com autonomia, eficácia e equidade dos serviços públicos de saúde.
 
-A análise combinou a inspeção técnica automatizada por meio da ferramenta **WAVE (*Web Accessibility Evaluation Tool*)**, mantida pela WebAIM, com a avaliação ergonômica baseada nas **10 Heurísticas de Usabilidade de Jakob Nielsen**. O diagnóstico fundamentou-se nas diretrizes internacionais da **WCAG 2.1 (*Web Content Accessibility Guidelines*)**, nos níveis de conformidade A e AA, e nos parâmetros estabelecidos pelo **eMAG (*Modelo de Acessibilidade em Governo Eletrônico*)**, normativo obrigatório para portais da administração pública brasileira.
+A análise combinou a inspeção técnica automatizada por meio da ferramenta **WAVE (*Web Accessibility Evaluation Tool*)**, mantida pela WebAIM, com a avaliação ergonômica baseada nas **10 Heurísticas de Usabilidade de Jakob Nielsen**. O diagnóstico fundamentou-se nas diretrizes internacionais da **WCAG 2.2 (*Web Content Accessibility Guidelines*)**, nos níveis de conformidade A e AA, e nos parâmetros estabelecidos pelo **eMAG (*Modelo de Acessibilidade em Governo Eletrônico*)**, normativo obrigatório para portais da administração pública brasileira.
 
 Foram avaliados quatro fluxos e telas fundamentais da aplicação:
 
@@ -75,12 +75,12 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 
 ---
 
-## 4. Diagnóstico Detalhado: WAVE × WCAG 2.1 × Heurísticas de Nielsen
+## 4. Diagnóstico Detalhado: WAVE × WCAG 2.2 × Heurísticas de Nielsen
 
 ### A. Contraste Crítico na Área Pública de Entrada (*Very low contrast*)
 
 * **Evidência do WAVE:** A tela inicial pública (deslogada) apresentou **12 erros severos de contraste**. Todos os rótulos textuais dispostos abaixo dos ícones dos serviços centrais ("Agora tem Especialistas em Saúde Mental para Mulheres", "Conteúdos", "Rede de Saúde", "Valida Certidão", "Calendário Nacional de Vacinação", "Fale com o Meu SUS Digital", "Sobre o SUS" e "Termos de Utilização") encontram-se sobrepostos a uma imagem fotográfica azulada com máscara translúcida sem contraste mínimo garantido.
-* **Violação Técnica (WCAG 2.1):** Critério de Sucesso 1.4.3 — Contraste Mínimo (Nível AA). A razão de contraste apurada situa-se abaixo do limiar obrigatório de $4.5:1$ para texto em tamanho normal.
+* **Violação Técnica (WCAG 2.2):** Critério de Sucesso 1.4.3 — Contraste Mínimo (Nível AA). A razão de contraste apurada situa-se abaixo do limiar obrigatório de $4.5:1$ para texto em tamanho normal.
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #1: Visibilidade do status do sistema.** O portal não garante que seus atalhos funcionais estejam perceptíveis de pronto ao cidadão. O usuário não consegue discernir visualmente os serviços públicos que podem ser acessados ou validados antes da autenticação (como validação de certidão ou calendário vacinal).
   * **Heurística #7: Flexibilidade e eficiência de uso.** A camuflagem ótica das opções contra a imagem de fundo exige lentidão excessiva e esforço de focalização visual, prejudicando usuários idosos ou sob incidência de luz solar em dispositivos móveis.
@@ -101,7 +101,7 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 ### B. Ausência de Texto Alternativo em Imagens (*Missing alternative text*)
 
 * **Evidência do WAVE:** Foram identificados **1 erro** na tela pública (ícone ilustrativo central desprovido de descrição) e **33 erros** massivos na Página Inicial autenticada decorrentes de ilustrações de campanhas e cabeçalhos sem `alt`. Nas telas internas (Vacinas e Detalhes), repetiram-se **2 erros** pontuais em ícones da barra superior.
-* **Violação Técnica (WCAG 2.1):** Critério de Sucesso 1.1.1 — Conteúdo Não Textual (Nível A).
+* **Violação Técnica (WCAG 2.2):** Critério de Sucesso 1.1.1 — Conteúdo Não Textual (Nível A).
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #1: Visibilidade do status do sistema.** Para quem utiliza sintetizador de voz (NVDA, TalkBack, Orca), o sistema oculta integralmente as peças informativas sobre saúde feminina, saúde mental e campanhas de vacinação, verbalizando apenas o nome cru do arquivo (ex.: `banner_campanha.png`) ou mantendo o foco em silêncio.
   * **Heurística #6: Reconhecimento em vez de memorização.** A falta de equivalência textual impede o reconhecimento direto do conteúdo, forçando o cidadão com deficiência a adivinhar o destino de links e botões associados às imagens.
@@ -120,7 +120,7 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 ### C. Textos Alternativos Excessivamente Longos (*Long alternative text*)
 
 * **Evidência do WAVE:** Identificados **4 alertas** na Página Inicial autenticada. A equipe de desenvolvimento tentou descrever minuciosamente cada traço cênico das fotografias diretamente no atributo `alt` (ex.: *"Mulher jovem apoiada sobre os ombros de uma mulher idosa, ambas de perfil, em imagem em preto e branco"* e *"Pessoa idosa segurando um celular com as duas mãos e tocando na tela, representando o uso de serviços digitais de saúde pelo smartphone"*).
-* **Violação Técnica (WCAG 2.1):** Critério de Sucesso 1.1.1 — Conteúdo Não Textual (Recomendações e Boas Práticas).
+* **Violação Técnica (WCAG 2.2):** Critério de Sucesso 1.1.1 — Conteúdo Não Textual (Recomendações e Boas Práticas).
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #8: Estética e design minimalista.** Textos alternativos prolixos poluem o fluxo auditivo. O leitor de tela lê o atributo de uma só vez, sem suporte a pausas por parágrafo, saturando a atenção do usuário com descrições plásticas irrelevantes para a finalidade pública da página.
   * **Heurística #7: Flexibilidade e eficiência de uso.** Usuários avançados de leitor de tela que buscam emitir um documento de saúde têm sua navegação linear lentificada pela leitura compulsória de longas descrições imagéticas.
@@ -131,7 +131,7 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 ### D. Rótulos de Formulários Órfãos (*Orphaned form label*)
 
 * **Evidência do WAVE:** Ocorrência de campos sem rótulo programático associado: **2 alertas** na tela pública (área de "Você não está logado" / "Entrar com Gov.br"), **2 alertas** na Página Inicial autenticada, **2 alertas** em Vacinas e **4 alertas** na tela de Detalhes do Documento.
-* **Violação Técnica (WCAG 2.1):** Critérios de Sucesso 1.3.1 — Informações e Relações (Nível A) e 3.3.2 — Rótulos ou Instruções (Nível A).
+* **Violação Técnica (WCAG 2.2):** Critérios de Sucesso 1.3.1 — Informações e Relações (Nível A) e 3.3.2 — Rótulos ou Instruções (Nível A).
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #5: Prevenção de erros.** Controles de formulário sem `<label>` vinculada via atributos `for` e `id` são vocalizados de forma vaga (ex.: "campo de texto"). Usuários com deficiência visual não conseguem antecipar qual dado deve ser digitado ou qual ação aquele controle executará, aumentando a taxa de erros no preenchimento.
   * **Heurística #6: Reconhecimento em vez de memorização.** O usuário é forçado a deduzir a finalidade do campo a partir de fragmentos de texto soltos ao redor, gerando esforço mnemônico desnecessário.
@@ -146,7 +146,7 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 ### E. Quebra na Hierarquia de Cabeçalhos (*Skipped heading level*)
 
 * **Evidência do WAVE:** Detectado **1 alerta** na Página Inicial autenticada e ausência quase total de hierarquia estrutural na tela deslogada (que possui apenas 1 `<h1>` e 3 elementos de estrutura no total). Na tela autenticada, a estrutura salta diretamente de `<h1>` para `<h3>` e `<h4>`, omitindo o nível `<h2>`.
-* **Violação Técnica (WCAG 2.1):** Critérios de Sucesso 1.3.1 — Informações e Relações (Nível A) e 2.4.6 — Títulos e Rótulos (Nível AA).
+* **Violação Técnica (WCAG 2.2):** Critérios de Sucesso 1.3.1 — Informações e Relações (Nível A) e 2.4.6 — Títulos e Rótulos (Nível AA).
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #4: Consistência e padrões.** A supressão de níveis da hierarquia quebra o padrão de navegação universal da web. Leitores de tela fornecem comandos para avançar entre seções mestras via cabeçalhos de nível 2; ao pular direto para o nível 3, o mapa mental do documento se fragmenta.
   * **Heurística #2: Correspondência entre o sistema e o mundo real.** O documento digital deve seguir a lógica usual de capítulos e subseções encontrada em sumários tradicionais.
@@ -160,7 +160,7 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 ### F. Tipografia Excessivamente Reduzida (*Very small text*)
 
 * **Evidência do WAVE:** Registrada incidência crítica de microtextos em todas as áreas internas: **10 alertas** na Home autenticada, até **9 alertas** em Vacinas e **12 alertas** na tela de Detalhes do Documento. O problema afeta datas cruciais de imunização (*"09/07/2022"*, *"20/12/2021"*), nomes técnicos de vacinas (*"Sinovac/Butantan"*, *"Pfizer Comirnaty"*) e dados de lote.
-* **Violação Técnica (WCAG 2.1):** Critério de Sucesso 1.4.4 — Redimensionamento de Texto (Nível AA).
+* **Violação Técnica (WCAG 2.2):** Critério de Sucesso 1.4.4 — Redimensionamento de Texto (Nível AA).
 * **Violação Ergonômica (Heurísticas de Nielsen):**
   * **Heurística #8: Estética e design minimalista.** A tentativa de compactar a tela com tamanhos tipográficos inferiores a $10\text{px}$ prejudica a legibilidade e a hierarquia visual.
   * **Heurística #6: Reconhecimento em vez de memorização.** A ilegibilidade de metadados médicos e sanitários força o cidadão idoso ou com acuidade visual comprometida a fazer esforço excessivo para decifrar datas de reforço e prazos de vacinação.
@@ -168,9 +168,9 @@ A tabela a seguir apresenta os resultados brutos extraídos do WAVE para as quat
 
 ---
 
-## 5. Matriz Integrada: WAVE × WCAG 2.1 × Heurísticas de Nielsen
+## 5. Matriz Integrada: WAVE × WCAG 2.2 × Heurísticas de Nielsen
 
-| Elemento / Erro WAVE | Ocorrência no Meu SUS Digital | Diretriz WCAG 2.1 | Heurística de Nielsen Violada | Impacto no Usuário e Solução Recomendada |
+| Elemento / Erro WAVE | Ocorrência no Meu SUS Digital | Diretriz WCAG 2.2 | Heurística de Nielsen Violada | Impacto no Usuário e Solução Recomendada |
 | :--- | :--- | :--- | :--- | :--- |
 | **Very low contrast** | 12 na Página Pública; 1 em Vacinas | 1.4.3 (Nível AA) | **#1 Visibilidade do Status**<br>**#7 Eficiência de Uso**<br>**#8 Design Minimalista** | Rótulos de serviços e botões camuflados contra fundo azul com imagem. Solução: aplicar fundo sólido escuro ou cartões com razão $\ge 4.5:1$. |
 | **Missing alternative text** | 1 na Pública; 33 na Home; 2 em Vacinas/Detalhes | 1.1.1 (Nível A) | **#1 Visibilidade do Status**<br>**#6 Reconhecimento em vez de Memória** | Imagens e campanhas silenciadas no sintetizador de voz. Solução: inserir atributos `alt` informativos nos links e campanhas. |

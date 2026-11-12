@@ -1,41 +1,71 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
-
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
-
-nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+site_name: Grupo 05 — Acessibilidade Web
+site_description: Guia prático de acessibilidade e IHC alinhado à WCAG 2.2, ABNT NBR 17225:2025 e Gov.br
+site_url: https://unb-ihc.github.io/IHC_2026.2_Grupo05/
+repo_url: https://github.com/UnB-IHC/IHC_2026.2_Grupo05
+repo_name: Grupo 05 • IHC 2026.2
+edit_uri: ""
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+plugins:
+  - search
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - footnotes
   - def_list
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.tasklist:
-      custom_checkbox: false
+      custom_checkbox: true
       clickable_checkbox: true
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/checklist-progress.js
+
+nav:
+  - Início:
+    - Introdução: index.md
+  - Fundamentos de IHC e UX: inicio/fundamentos.md
+  - Guia de Site Acessível: guia/site_acessivel.md
+  - Checklist: checklist/checklist.md
+  - Avaliação do Meu Sus Digital: avaliacao/introducao.md
+  - Checklist Aplicada: avaliacao/checklistmeusus.md
+  - Metodologias & Apoio:
+      - Ferramentas de Apoio: tools/ferramentas.md
+      - Heurísticas de Nielsen: metodo/heuristicas.md
+      - WCAG: wcag.md
+      - Técnicas de IHC: metodo/tecnicasIHC.md

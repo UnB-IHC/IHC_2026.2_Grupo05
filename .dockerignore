@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+site
+node_modules
+*.pyc
+__pycache__
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md
+LICENSE.md
